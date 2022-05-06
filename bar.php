@@ -12,7 +12,6 @@
        stroke: rgba(11, 138, 217, 0.58);
        /* The width of your bars */
        stroke-width: 40px;
-   font-size: 14px;
        /* Yes! Dashed bars! */
        /* Maybe you like round corners on your bars? *
    }
