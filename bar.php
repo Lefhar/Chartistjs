@@ -7,28 +7,13 @@
     <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
 </head>
 <body>
+<div class="ct-chart"></div>
 <script>
-    let chart = new Chartist.Line('.ct-chart', {
-        labels: [1, 2, 3],
-        series: [
-            [
-                {meta: 'description', value: 1 },
-                {meta: 'description', value: 5},
-                {meta: 'description', value: 3}
-            ],
-            [
-                {meta: 'other description', value: 2},
-                {meta: 'other description', value: 4},
-                {meta: 'other description', value: 2}
-            ]
-        ]
+    new Chartist.Bar('.ct-chart', {
+        labels: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+        series: [2000000, 6001440, 1001120, 2001010, 1000180, 4844120, 2123510, 1000180, 4844120, 2123510, 4844120, 2123510]
     }, {
-        low: 0,
-        high: 8,
-        fullWidth: true,
-        plugins: [
-            Chartist.plugins.tooltip()
-        ]
+        distributeSeries: true
     });
 </script>
 </body>
