@@ -7,8 +7,6 @@
     <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
 </head>
 <body>
-
-
 <script>
     var chart = new Chartist.Line('.ct-chart', {
         labels: [1, 2, 3],
