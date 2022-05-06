@@ -12,7 +12,8 @@
     new Chartist.Bar('.ct-chart', {
         labels: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
         series: [2000000, 6001440, 1001120, 2001010, 1000180, 4844120, 2123510, 1000180, 4844120, 2123510, 4844120, 2123510]
-    }, {
+    },
+    {
         distributeSeries: true
     });
 </script>
